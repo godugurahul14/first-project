@@ -1,7 +1,7 @@
 name: first-project-wf
 on: push
 jobs:
-    first-job:
+    test:
         runs-on: ubuntu-latest
         steps:
             - name: Get code
